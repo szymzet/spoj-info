@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative '../spoj_parser'
+require_relative '../lib/spoj_parser'
 
 class SpojParserTest < MiniTest::Unit::TestCase
   def test_no_problem_exists

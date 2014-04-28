@@ -2,7 +2,7 @@ require 'sinatra/base'
 require 'json'
 require 'open-uri'
 
-require_relative 'spoj_parser'
+require_relative 'lib/spoj_parser'
 
 class SpojInfoApp < Sinatra::Application
 
